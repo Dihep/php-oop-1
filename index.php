@@ -9,6 +9,15 @@ class Movie {
     public $genre;
     public $poster;
 
+    public function __construct($title, $description, $releaseDate, $lenght, $genre, $poster)
+    {
+        $this->title = $title;
+        $this->description = $description;
+        $this->releaseDate = $releaseDate;
+        $this->lenght = $lenght;
+        $this->genre = $genre;
+        $this->poster = $poster;      
+    }
     
 }
 
