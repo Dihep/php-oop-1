@@ -1,5 +1,17 @@
 <?php
 
+class Movie {
+
+    public $title;
+    public $description;
+    public $releaseDate;
+    public $lenght;
+    public $genre;
+    public $poster;
+
+    
+}
+
 ?>
 
 <!DOCTYPE html>
