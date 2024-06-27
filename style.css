@@ -9,3 +9,15 @@ HTML {
     color: white;
     padding: 5rem 15%;
 }
+
+ul {
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    list-style: none;
+}
+
+li:first-child {
+    font-size: 2rem;
+}
