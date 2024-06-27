@@ -15,10 +15,16 @@ class Movie {
         $this->description = $description;
         $this->releaseDate = $releaseDate;
         $this->lenght = $lenght;
-        $this->genre = $genre;
-        $this->poster = $poster;      
+        $this->genre = $genre;    
     }
     
+    public function print() {
+        echo "<ul><li>Titolo: " . $this->title . "</li>";
+        echo "<li>Descrizione: " . $this->description . "</li>";
+        echo "<li>Data di uscita: " . $this->releaseDate . "</li>";
+        echo "<li>Durata: " . $this->lenght . "</li>";
+        echo "<li>Genere: " . $this->genre . "</li>";
+    }
 }
 
 ?>
@@ -33,5 +39,9 @@ class Movie {
 
 <body>
     
+    <?php
+        
+    ?>
+
 </body>
 </html>
